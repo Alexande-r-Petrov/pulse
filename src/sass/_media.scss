@@ -57,6 +57,14 @@
         text-align: center;
        }
     }
+    .carousel{
+        &__inner {
+            width: 540px;
+            img {
+                width: 100%;
+            }
+        }
+    }
     .catalog {
         &__content {
             justify-content: center;
@@ -190,6 +198,25 @@
             font-size: 14px;
             line-height: 12px;
             margin-bottom: 14px;
+        }
+    }
+    .modal {
+        width: 280px;
+        min-height: 300px;
+        &__subtitle {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 10px;
+        }
+        .feed-form_mt25 {
+            width: 200px;
+            input {
+                font-size: 10px;
+            }
+            .button_submit {
+                font-size: 12px;
+            }
         }
     }
 }
